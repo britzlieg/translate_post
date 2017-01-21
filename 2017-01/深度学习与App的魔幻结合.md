@@ -16,7 +16,7 @@
 
 在我们开始学习之前，我想说明一下一些事情。这个入门教程会跳过一些概念和难点，以便于降低入门门槛和尽快实现真实测试。另外，我们将只使用深度学习中的图片分类，以使整个入门过程变得更加直接和简单。
 
-[Youtube视频1](https://cdn-images-1.medium.com/max/2000/1*Id147TcfIDDGf6BKz5Misw.jpeg)
+[Youtube视频1](https://youtu.be/agAFdlaJ6uo)
 
 ## 简介
 在这里我假设你对深度学习有一定了解。你可能见过一些使用了深度学习的产品，比如Facebook的脸部识别，Apple的Siri，Mobileye的车辆碰撞识别等等。然而，随着最近深度学习框架的开源，不仅仅巨头们可以开发这些产品，创业公司现在也可以参与其中。例如， [Clarifai](https://www.clarifai.com/) 为你的应用提供了视觉能力，[AIDoc](http://www.aidoc.com/) ， [AIDoc](http://www.aidoc.com/)  对医学放射工业发起了挑战。这些可以看出使用场景正在改变。
