@@ -195,3 +195,5 @@ loss{x}/classifier/retrain— 。 我们做这一步是为了让我们的神经�
 ### 你也可以在[Twitter](https://twitter.com/avihayas)中关注英文原文作者。
 
 > 如果你喜欢这篇译文，记得在[简书中给我点赞并关注我哦](http://www.jianshu.com/u/64d47b1e0fc9)
+> 
+> 本文[Github地址](https://github.com/britzlieg/translate_post/blob/master/2017-01/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8EApp%E7%9A%84%E9%AD%94%E5%B9%BB%E7%BB%93%E5%90%88.md)
