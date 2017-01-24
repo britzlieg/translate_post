@@ -1,6 +1,6 @@
 > This post have got access from the original author [Avihay Assouline](https://medium.com/@avihay) to translate into Chinese. If you are interest in this article and want to repost it, you should add the refer link to this article in your repost.
 >
-> 这篇文章已从英文原作者[Avihay Assouline](https://medium.com/@avihay)那里得到翻译授权,如果你对本文感兴趣而且想转发，你应该在转发文章里加上本文的链接。
+> 这篇文章已从英文原作者[Avihay Assouline](https://medium.com/@avihay)那里得到翻译授权,如果你对本文感兴趣而且想转发，你应该在转发文章里加上本文的[链接](https://github.com/britzlieg/translate_post/blob/master/2017-01/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8EApp%E7%9A%84%E9%AD%94%E5%B9%BB%E7%BB%93%E5%90%88.md)。
 
 > [英文原文链接](https://medium.com/@avihay/bring-magic-to-your-mobile-app-with-deep-learning-184d9062d7fc#.2e0i9zu79)
 
