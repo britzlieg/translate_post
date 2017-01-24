@@ -1,5 +1,6 @@
 # 面向协议的UITableViewCells
-> 这是我基于英文原文翻译的译文，如果你对本文感兴趣而且想转发，你应该在转发文章里加上本文的[链接]()。
+> 这是我基于英文原文翻译的译文，如果你对本文感兴趣而且想转发，你应该在转发文章里加上本文的[链接](https://github.com/britzlieg/translate_post/blob/master/2017-01/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84UITableViewCells.md)
+> 
 > [英文原文链接](https://medium.com/ios-os-x-development/protocol-oriented-uitableviewcells-6efa7ef8c45b#.vqr68egqf)
 
 这篇文章将展示如何通过面向协议编程（POP）而不是通过类继承，来实现不同UITableViewCell对象的展示。准备好了吗？让我们一起来看看具体怎么做！
@@ -8,7 +9,7 @@ cells展示！
 
 当我开发[Cast Player](http://castplayerapp.com/)这个app的时候，我需要添加很多设置页面来让用户调整app的一些设置，其中就包括一个反馈表格和一些关于界面。下面是这个界面的展示：
 
-![](https://cdn-images-1.medium.com/max/800/1*pOvZMcD-I0M1uGWG54ZraQ.gif)
+![](https://cdn.rawgit.com/britzlieg/asset-respo/gh-pages/traslate_post/translate_post_%E9%9D%A2%E5%90%91%E5%8D%8F%E8%AE%AE%E7%9A%84UITableViewCells_01.gif)
 
 从上面的界面展示可以看到，我们要定义6个不同类型的cells：
 
@@ -184,4 +185,4 @@ Swift的协议和扩展，是一种能添加行为（特性）的方法。这种
 
 > 如果你喜欢这篇译文，记得在[简书中给我点赞并关注我哦](http://www.jianshu.com/u/64d47b1e0fc9)
 > 
-> 本文[Github地址]()
+> 本文[Github地址](https://github.com/britzlieg/translate_post/blob/master/2017-01/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84UITableViewCells.md)
