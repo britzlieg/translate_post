@@ -1,5 +1,5 @@
 # 轻松管理Swift项目中的各种环境
-> 这是我基于英文原文翻译的译文，如果你对本文感兴趣而且想转发，你应该在转发文章里加上本文的[链接](https://github.com/britzlieg/translate_post/blob/master/2017-01/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84UITableViewCells.md)
+> 这是我基于英文原文翻译的译文，如果你对本文感兴趣而且想转发，你应该在转发文章里加上本文的[链接](https://github.com/britzlieg/translate_post/blob/master/2017-09/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86Swift%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E7%8E%AF%E5%A2%83.md)
 > 
 > [英文原文链接](https://medium.com/flawless-app-stories/manage-different-environments-in-your-swift-project-with-ease-659f7f3fb1a6)
 
@@ -159,4 +159,4 @@ Conclusion
 
 感谢大家的阅读 :)
 
-> 本文[Github地址](https://github.com/britzlieg/translate_post/blob/master/2017-01/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84UITableViewCells.md)
+> 本文[Github地址](https://github.com/britzlieg/translate_post/blob/master/2017-09/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86Swift%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E7%8E%AF%E5%A2%83.md)
