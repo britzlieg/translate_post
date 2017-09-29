@@ -18,7 +18,7 @@
 
 当你有两个独立的环境，你的应用需要知道它应该使用那个环境。想象一下，你有生产，开发，演示三个环境和API接口。那么环境切换的最快最简单方法就是注释其他两个环境。
 
-```
+```swift
 // MARK: - Development
 let APIEndpointURL = "http://mysite.com/dev/api"
 let analyticsKey = "jsldjcldjkcs"
@@ -37,8 +37,7 @@ let analyticsKey = "jsldjcldjkcs"
 
 另一种流行的做法，是通过一个全局变量或枚举（这个会好一点）来处理不同的配置环境。你需要在某个地方（例如AppDelegate）声明您的三个不同环境的枚举和设置它们的值。
 
-```
-
+```swift
 enum Environment {
     case development
     case staging 
@@ -61,7 +60,6 @@ case .production:
     // set API keys to production
     print("It's for production")
 }
-
 ```
 
 这种做法保证你可以只改变一处代码就能配置不同的环境。与之前的方法不同，这个会好很多。这种做法非常灵活，可读性更强，但它有很多局限性。首先，在不同环境下运行都只有一个相同的Bundle ID。这就意味着你讲不能同时装上不同环境的相同app。这种做法其实也是不太合适。
@@ -110,8 +108,7 @@ After applying these approaches your app will have the same codebase for every e
 
 然后配置的代码就像如下所示：
 
-```
-
+```swift
 #if DEVELOPMENT
 let SERVER_URL = "http://dev.server.com/api/"
 let API_TOKEN = "asfasdadasdass"
@@ -119,7 +116,6 @@ let API_TOKEN = "asfasdadasdass"
 let SERVER_URL = "http://prod.server.com/api/"
 let API_TOKEN = "fgbfkbkgbmkgbm"
 #endif
-
 ```
 
 现在，如果你选择 Dev 的scheme运行，你就自动使用开发配置来启动你的app了。
@@ -128,8 +124,7 @@ let API_TOKEN = "fgbfkbkgbmkgbm"
 
 在这种做法中，我们将重复之前那个创建新scheme的步骤。在做完这个步骤后，不像之前一样添加一个全局标记，我们将把必要的值添加进我们的*.plist中。同样的，我们将添加一个 serverBaseURL 字符串变量到每个 *.plist 文件中，并把URLs作为值进行设置。现在每个*.plist文件都包含一个URL，我们可以通过代码来调用它。我认为，为我们的Bundle创建一个extension是一个好主意，像下面的代码一样：
 
-```
-
+```swift
 extension Bundle {
     var apiBaseURL: String {
 	return object(forInfoDictionaryKey: "serverBaseURL") as? String ?? ""
@@ -138,7 +133,6 @@ extension Bundle {
 
 //And call it from the code like this:
 let baseURL = Bundle.main.apiBaseURL
-
 ```
 
 个人认为，我更喜欢这种方式多一点，因为你不需要在你的代码中检查你的配置。你仅仅需要选择你的Bundle，然后它就会返回他自己当前的配置。
