@@ -1,5 +1,5 @@
 # 使用"Core"架构iOS Apps
-> 这是我基于英文原文翻译的译文，如果你对本文感兴趣而且想转发，你应该在转发文章里加上本文的[链接]()
+> 这是我基于英文原文翻译的译文，如果你对本文感兴趣而且想转发，你应该在转发文章里加上本文的[链接](https://github.com/britzlieg/translate_post/blob/master/2017-10/%E4%BD%BF%E7%94%A8%22Core%22%E6%9E%B6%E6%9E%84iOS%20Apps.md)
 > 
 > [英文原文链接](https://theswiftpost.co/architecting-ios-apps-core/)
 
@@ -9,8 +9,6 @@
 - 2、监听状态变化和进行更新。
 
 除了这些，没有其他职责。不同架构中，视图组件的功能职责是一致的。这个组件简单，独立，因此很容易被替代。但事实上，真的如此吗？看一下你所有的实现，然后告诉我...再大多数iOS应用中，它们是最难处理的组件。我们把每个智能组件（例如view model，presenter 和 interactor）注入到 视图控制器中。这就意味着如果一个视图控制器挂了，那些智能组件也一样跟着挂掉。视图就像是一个笨重的肌肉男，主宰着整个生命周期的数据流动。难道就没有其他的方案吗？
-
-I don’t think there is a problem with architecture definitions, but I can’t say the same for how they are advertised and implemented.
 
 我不认为这是一个架构定义的问题，但我不能说出它们是怎么被实现的。
 
@@ -238,4 +236,4 @@ class LoginViewController: Subscriber {
 
 > 译者：原文是架构类英文文章，比较抽象，建议结合源码看。[源码地址](https://github.com/gokselkoksal/Core)。
 
-> 本文[Github地址]()
+> 本文[Github地址](https://github.com/britzlieg/translate_post/blob/master/2017-10/%E4%BD%BF%E7%94%A8%22Core%22%E6%9E%B6%E6%9E%84iOS%20Apps.md)
