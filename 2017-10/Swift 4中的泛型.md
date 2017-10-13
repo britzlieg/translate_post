@@ -1,7 +1,7 @@
 # Swift 4 中的泛型
 > 这是我基于英文原文翻译的译文，如果你对本文感兴趣而且想转发，你应该在转发文章里加上本文的[链接](https://github.com/britzlieg/translate_post/blob/master/2017-10/%E4%BD%BF%E7%94%A8%22Core%22%E6%9E%B6%E6%9E%84iOS%20Apps.md)
 > 译者：[britzlieg](https://github.com/britzlieg)
-> [英文原文链接]()
+> [英文原文链接](https://github.com/britzlieg/translate_post/blob/master/2017-10/Swift%204%E4%B8%AD%E7%9A%84%E6%B3%9B%E5%9E%8B.md)
 
 ![](https://user-gold-cdn.xitu.io/2017/10/13/3bb62edfdcc6fe74542689c21be79093)
 
@@ -220,8 +220,6 @@ extension Money where Currency == Euro {
 
 ### 泛型的where 语句的关联类型
 
-Our beloved council makes some improvements in ```Storage``` protocol. They want to iterate over each item and control them when they want to inspect if everything is OK. Controlling process is going to be different for each ```Item```. Because of that, the council just provides iteration feature for ```Storage``` by adding an ```Iterator``` associated type.
-
 在上文中，理事会给```Storage```协议做了一些改进。当他们想检查一切是否安好，他们想列出每一样物品，并控制他们。控制进程对于每个```Item```是不一样的。因为这样，理事会仅仅需要提供```Iterator```关联类型到```Storage```协议中。
 
 
@@ -265,5 +263,5 @@ extension Storage {
 
 我们让我们的餐馆功能完备。我们的经理和理事会看起来也很高兴。正如我们在文章中看到的，泛型是很强大的。我们可以用泛型来满足各种敏感的需求，只要我们知道概念。泛型在Swift的标准库中也应用广泛。例如，[Array](https://developer.apple.com/documentation/swift/array) 和 [Dictionary](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID113)类型都是泛型集合。如果你想知道更多，你可以看看这些类是怎么实现的。 [Swift Language Doc](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html) 也提供了泛型的解析。最近Swift语言提供了泛型的一些说明[Generic Manifesto](https://github.com/apple/swift/blob/master/docs/GenericsManifesto.md)。我建议你去看完所有的文档，以便更好的理解当前用法和未来的规划。感谢大家的阅读！如果你对接下来的文章有疑惑，建议，评论或者是想法，清在 [Twitter](https://twitter.com/candostEN)  联系我，或者评论！你也可以在[GitHub](https://github.com/candostdagdeviren)上关注我哦！
 
-> 本文[Github地址]()
+> 本文[Github地址](https://github.com/britzlieg/translate_post/blob/master/2017-10/Swift%204%E4%B8%AD%E7%9A%84%E6%B3%9B%E5%9E%8B.md)
 
