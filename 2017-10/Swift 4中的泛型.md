@@ -60,8 +60,6 @@ protocol Company {
 }
 ```
 
-Now, we can use these functions with inner peace. Basically, we put a constraint on our placeholder type ```T``` with saying “Only products which conform to ```LegallyTradable``` can be parameters of our ```Company``` protocol’s functions”. This constraint is called protocol as a constraint in Swift. If one product is not conforming to this protocol, it can’t be used as a parameter in this function.
-
 现在，我们可以放心用这些函数了。通常，我们把符合```LegallyTradable```协议的默认类型```T```作为我们```Company```协议函数的参数。这个约束被叫做Swift中的协议约束。如果一个商品不遵循这个协议，它将不能作为这个函数的参数。
 
 ### 泛型类型
@@ -200,8 +198,6 @@ protocol Company {
   func sell<T: LegallyTradable, M: Money>(product: T, for money: M) where M.Currency: TradeCurrency
 }
 ```
-
-The difference between where clause and type constraint is where clauses are used to define requirements in associated type. In other words, we are not constraining the associated type inside the protocol. Instead, we’re constraining it while using the protocol.
 
 where语句和类型约束的where语句的区别在于，where语句会被用于定义关联类型。换句话，在协议中，我们不能限制关联的类型，而会在使用协议的时候限制它。
 
