@@ -1,9 +1,9 @@
 # Swift 4 中的泛型
-> 这是我基于英文原文翻译的译文，如果你对本文感兴趣而且想转发，你应该在转发文章里加上本文的[链接](https://github.com/britzlieg/translate_post/blob/master/2017-10/%E4%BD%BF%E7%94%A8%22Core%22%E6%9E%B6%E6%9E%84iOS%20Apps.md)
+> 这是我基于英文原文翻译的译文，如果你对本文感兴趣而且想转发，你应该在转发文章里加上本文的[链接](https://github.com/britzlieg/translate_post/blob/master/2017-10/Swift%204%E4%B8%AD%E7%9A%84%E6%B3%9B%E5%9E%8B.md)
 >
 > 译者：[britzlieg](https://github.com/britzlieg)
 >
-> [英文原文链接](https://github.com/britzlieg/translate_post/blob/master/2017-10/Swift%204%E4%B8%AD%E7%9A%84%E6%B3%9B%E5%9E%8B.md)
+> [英文原文链接](https://theswiftpost.co/generics-swift-4/)
 
 ![](https://user-gold-cdn.xitu.io/2017/10/13/3bb62edfdcc6fe74542689c21be79093)
 
